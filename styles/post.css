@@ -1,0 +1,115 @@
+.photo-grid {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr;
+  position: relative;
+  top: 150px;
+  left: 470px;
+  width: 470px;
+}
+
+.photo-preview {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+.author-content {
+  height: 590px;
+  width: 470px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.photo-preview .icon {
+  height: 20px;
+  width: 20px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.author-info .author-photo {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.author-info .author-nick,
+.user-description span {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.author-info .author-post-time {
+  color: gray;
+  padding-right: 300px;
+}
+
+.content-actions {
+  display: flex;
+  justify-content: space-between;
+  width: 470px;
+}
+
+.content-actions .first-section img {
+  margin-right: 15px;
+}
+
+.content-actions img,
+.post-bottom img {
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.content-actions img:hover,
+.post-bottom img:hover {
+  opacity: 0.5;
+}
+
+.likes {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.user-description {
+  font-size: 14px;
+  margin-bottom: 5px;
+  line-height: 18px;
+  margin-bottom: 5px;
+}
+
+.comments {
+  font-size: 14px;
+  color: rgb(115, 115, 115);
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.post-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  color: rgb(115, 115, 115);
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(204, 204, 204);
+  border-bottom-style: solid;
+  padding-bottom: 15px;
+}
+
+.post-bottom img {
+  height: 10px;
+  width: 10px;
+}

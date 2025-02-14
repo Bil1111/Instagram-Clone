@@ -8,69 +8,646 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?
   family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="styles/sidebar.css">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/recomendations.css">
+  <link rel="stylesheet" href="styles/stories.css">
+  <link rel="stylesheet" href="styles/post.css">
 </head>
 
 <body>
-  <header>
-
+  <header class="stories">
+    <div class="story">
+      <div class="border"><img src="photos/channel-1.jpeg"></div>
+      <div class="nick">user6</div>
+    </div>
+    <div class="story">
+      <div class="border"><img src="photos/channel-2.jpeg"></div>
+      <div class="nick">user7</div>
+    </div>
+    <div class="story">
+      <div class="border"><img src="photos/channel-3.jpeg"></div>
+      <div class="nick">user8</div>
+    </div>
+    <div class="story">
+      <div class="border"><img src="photos/channel-4.jpeg"></div>
+      <div class="nick">user9</div>
+    </div>
+    <div class="story">
+      <div class="border"><img src="photos/channel-5.jpeg"></div>
+      <div class="nick">user10</div>
+    </div>
+    <div class="story">
+      <div class="border"><img src="photos/channel-1.jpeg"></div>
+      <div class="nick">user11</div>
+    </div>
+    <div class="story">
+      <div class="border"><img src="photos/channel-2.jpeg"></div>
+      <div class="nick">user12</div>
+    </div>
+    <div class="story">
+      <div class="border"><img src="photos/channel-3.jpeg"></div>
+      <div class="nick">user13</div>
+    </div>
+    <img class="next-stories" src="icons/next.png">
   </header>
+
+
   <nav class="sidebar">
-    <div class="top-link">
-      <div class="instagram">Instagram</div>
-    </div>
 
-    <div class="middle-link">
-      <img class="main-icon" src="cat.jpg">
-      <div class="main">Головна</div>
-    </div>
-    <div class="middle-link">
-      <img class="search-icon" src="cat.jpg">
-      <div class="search">Пошук</div>
-    </div>
-    <div class="middle-link">
-      <img class="intersting-icon" src="cat.jpg">
-      <div class="interesting">Цікаве</div>
-    </div>
-    <div class="middle-link">
-      <img class="reels-icon" src="cat.jpg">
-      <div class="reels">Reels</div>
-    </div>
-    <div class="middle-link">
-      <img class="messages-icon" src="cat.jpg">
-      <div class="messages">Повідомлення</div>
-    </div>
-    <div class="middle-link">
-      <img class="notifications-icon" src="cat.jpg">
-      <div class="notifications">Сповіщення</div>
-    </div>
-    <div class="middle-link">
-      <img class="create-icon" src="cat.jpg">
-      <div class="create">Створити</div>
-    </div>
-    <div class="middle-link">
-      <img class="profile-icon" src="cat.jpg">
-      <div class="profile">Профіль</div>
-    </div>
-
-    <div class="three">
-      <div class="bottom-link">
-        <img class="threads-icon" src="cat.jpg">
-        <div class="threads">Threads</div>
-      </div>
-      <div class="bottom-link">
-        <img class="more-icon" src="cat.jpg">
-        <div class="more">Більше</div>
+    <div class="top">
+      <div class="sidebar-instagram-link">
+        Instagram
       </div>
     </div>
 
+    <div class="middle">
+      <div class="sidebar-link">
+        <img src="icons/home.png">
+        <div>Головна</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/search.png">
+        <div>Пошук</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/interesting.png">
+        <div>Цікаве</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/reels.png">
+        <div>Reels</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/message.png">
+        <div>Повідомлення</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/notifications.png">
+        <div>Сповіщення</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/create.png">
+        <div>Створити</div>
+      </div>
+      <div class="sidebar-link">
+        <img class="profile-icon" src="photos/main.jpeg">
+        <div>Профіль</div>
+      </div>
+    </div>
+    <div class="bottom">
+      <div class="sidebar-link">
+        <img src="icons/threads.png">
+        <div>Threads</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/more.png">
+        <div>Більше</div>
+      </div>
+    </div>
+  </nav>
+
+  <nav class="recomendations">
+    <div class="profile-row">
+      <a href="https://www.instagram.com/artem_bilinskyi/" target="_blank" class="profile-link">
+        <img class="profile-picture" src="photos/main.jpeg">
+      </a>
+      <div class="nick">
+        <a href="https://www.instagram.com/artem_bilinskyi/" target="_blank" class="profile-link">
+          <p>artem_bilinskyi</p>
+        </a>
+      </div>
+      <button>Перейти</button>
+    </div>
+
+    <div class="recomendations-text">
+      <div class="text">Рекомендовані для вас</div>
+      <button>Переглянути всіх</button>
+    </div>
+
+    <div class="profile-row">
+      <div class="profile-picture-container">
+        <a href="https://www.instagram.com/artem_bilinskyi/">
+          <img class="profile-picture" src="photos/channel-1.jpeg">
+        </a>
+        <div class="profile-tooltip">
+          <div class="profile-header">
+            <img class="profile-tooltip-picture" src="photos/channel-1.jpeg">
+            <div class="profile-tooltip-name-about">
+              <div class="profile-tooltip-name">
+                user1
+              </div>
+              <div class="profile-tooltip-about">
+                Me.
+              </div>
+            </div>
+          </div>
+          <div class="posts-followers">
+            <div class="total-posts">
+              <div class="quantity">26</div>
+              <div>дописи</div>
+            </div>
+            <div class="profile-followers">
+              <div class="quantity">1883</div>
+              <div>читачі(в)</div>
+            </div>
+            <div class="profile-followings">
+              <div class="quantity">290</div>
+              <div>читаних</div>
+            </div>
+          </div>
+          <div class="published-posts">
+            <img src="photos/channel-1.jpeg">
+            <img src="photos/channel-1.jpeg">
+            <img src="photos/channel-1.jpeg">
+          </div>
+          <button class="follow-button">Стежити</button>
+        </div>
+      </div>
+      <div class="nick-same-followers">
+        <div class="nick-container">
+          <a href="https://www.instagram.com/artem_bilinskyi/" target="_blank" class="profile-link">
+            <div class="nick">user1</div>
+          </a>
+          <div class="profile-tooltip">
+            <div class="profile-header">
+              <img class="profile-tooltip-picture" src="photos/channel-1.jpeg">
+              <div class="profile-tooltip-name-about">
+                <div class="profile-tooltip-name">
+                  user1
+                </div>
+                <div class="profile-tooltip-about">
+                  Me.
+                </div>
+              </div>
+            </div>
+            <div class="posts-followers">
+              <div class="total-posts">
+                <div class="quantity">26</div>
+                <div>дописи</div>
+              </div>
+              <div class="profile-followers">
+                <div class="quantity">1883</div>
+                <div>читачі(в)</div>
+              </div>
+              <div class="profile-followings">
+                <div class="quantity">290</div>
+                <div>читаних</div>
+              </div>
+            </div>
+            <div class="published-posts">
+              <img src="photos/channel-1.jpeg">
+              <img src="photos/channel-1.jpeg">
+              <img src="photos/channel-1.jpeg">
+            </div>
+            <button class="follow-button">Стежити</button>
+          </div>
+        </div>
+        <div class="same-followers">
+          Стежить user2 та ще 3</div>
+      </div>
+      <button>Стежити</button>
+    </div>
+
+    <div class="profile-row">
+      <div class="profile-picture-container">
+        <a href="https://www.instagram.com/artem_bilinskyi/">
+          <img class="profile-picture" src="photos/channel-2.jpeg">
+        </a>
+        <div class="profile-tooltip">
+          <div class="profile-header">
+            <img class="profile-tooltip-picture" src="photos/channel-2.jpeg">
+            <div class="profile-tooltip-name-about">
+              <div class="profile-tooltip-name">
+                user2
+              </div>
+              <div class="profile-tooltip-about">
+                not a disaster.
+              </div>
+            </div>
+          </div>
+          <div class="posts-followers">
+            <div class="total-posts">
+              <div class="quantity">4</div>
+              <div>дописи</div>
+            </div>
+            <div class="profile-followers">
+              <div class="quantity">337</div>
+              <div>читачі(в)</div>
+            </div>
+            <div class="profile-followings">
+              <div class="quantity">32</div>
+              <div>читаних</div>
+            </div>
+          </div>
+          <div class="published-posts">
+            <img src="photos/channel-2.jpeg">
+            <img src="photos/channel-2.jpeg">
+            <img src="photos/channel-2.jpeg">
+          </div>
+          <button class="follow-button">Стежити</button>
+        </div>
+      </div>
+      <div class="nick-same-followers">
+        <div class="nick-container">
+          <a href="https://www.instagram.com/artem_bilinskyi/" target="_blank" class="profile-link">
+            <div class="nick">user2</div>
+          </a>
+          <div class="profile-tooltip">
+            <div class="profile-header">
+              <img class="profile-tooltip-picture" src="photos/channel-2.jpeg">
+              <div class="profile-tooltip-name-about">
+                <div class="profile-tooltip-name">
+                  user2
+                </div>
+                <div class="profile-tooltip-about">
+                  not a disaster.
+                </div>
+              </div>
+            </div>
+            <div class="posts-followers">
+              <div class="total-posts">
+                <div class="quantity">4</div>
+                <div>дописи</div>
+              </div>
+              <div class="profile-followers">
+                <div class="quantity">337</div>
+                <div>читачі(в)</div>
+              </div>
+              <div class="profile-followings">
+                <div class="quantity">32</div>
+                <div>читаних</div>
+              </div>
+            </div>
+            <div class="published-posts">
+              <img src="photos/channel-2.jpeg">
+              <img src="photos/channel-2.jpeg">
+              <img src="photos/channel-2.jpeg">
+            </div>
+            <button class="follow-button">Стежити</button>
+          </div>
+        </div>
+        <div class="same-followers">
+          Стежить user2 та ще 3</div>
+      </div>
+      <button>Стежити</button>
+    </div>
+
+    <div class="profile-row">
+      <div class="profile-picture-container">
+        <a href="https://www.instagram.com/artem_bilinskyi/">
+          <img class="profile-picture" src="photos/channel-3.jpeg">
+        </a>
+        <div class="profile-tooltip">
+          <div class="profile-header">
+            <img class="profile-tooltip-picture" src="photos/channel-3.jpeg">
+            <div class="profile-tooltip-name-about">
+              <div class="profile-tooltip-name">
+                user3
+              </div>
+              <div class="profile-tooltip-about">
+                can't be better.
+              </div>
+            </div>
+          </div>
+          <div class="posts-followers">
+            <div class="total-posts">
+              <div class="quantity">6</div>
+              <div>дописи</div>
+            </div>
+            <div class="profile-followers">
+              <div class="quantity">83</div>
+              <div>читачі(в)</div>
+            </div>
+            <div class="profile-followings">
+              <div class="quantity">29</div>
+              <div>читаних</div>
+            </div>
+          </div>
+          <div class="published-posts">
+            <img src="photos/channel-3.jpeg">
+            <img src="photos/channel-3.jpeg">
+            <img src="photos/channel-3.jpeg">
+          </div>
+          <button class="follow-button">Стежити</button>
+        </div>
+      </div>
+      <div class="nick-same-followers">
+        <div class="nick-container">
+          <a href="https://www.instagram.com/artem_bilinskyi/" target="_blank" class="profile-link">
+            <div class="nick">user3</div>
+          </a>
+          <div class="profile-tooltip">
+            <div class="profile-header">
+              <img class="profile-tooltip-picture" src="photos/channel-3.jpeg">
+              <div class="profile-tooltip-name-about">
+                <div class="profile-tooltip-name">
+                  user3
+                </div>
+                <div class="profile-tooltip-about">
+                  can't be better.
+                </div>
+              </div>
+            </div>
+            <div class="posts-followers">
+              <div class="total-posts">
+                <div class="quantity">6</div>
+                <div>дописи</div>
+              </div>
+              <div class="profile-followers">
+                <div class="quantity">83</div>
+                <div>читачі(в)</div>
+              </div>
+              <div class="profile-followings">
+                <div class="quantity">29</div>
+                <div>читаних</div>
+              </div>
+            </div>
+            <div class="published-posts">
+              <img src="photos/channel-3.jpeg">
+              <img src="photos/channel-3.jpeg">
+              <img src="photos/channel-3.jpeg">
+            </div>
+            <button class="follow-button">Стежити</button>
+          </div>
+        </div>
+        <div class="same-followers">
+          Стежить user2 та ще 3</div>
+      </div>
+      <button>Стежити</button>
+    </div>
+
+    <div class="profile-row">
+      <div class="profile-picture-container">
+        <a href="https://www.instagram.com/artem_bilinskyi/">
+          <img class="profile-picture" src="photos/channel-4.jpeg">
+        </a>
+        <div class="profile-tooltip">
+          <div class="profile-header">
+            <img class="profile-tooltip-picture" src="photos/channel-4.jpeg">
+            <div class="profile-tooltip-name-about">
+              <div class="profile-tooltip-name">
+                user4
+              </div>
+              <div class="profile-tooltip-about">
+                no
+              </div>
+            </div>
+          </div>
+          <div class="posts-followers">
+            <div class="total-posts">
+              <div class="quantity">7</div>
+              <div>дописи</div>
+            </div>
+            <div class="profile-followers">
+              <div class="quantity">188</div>
+              <div>читачі(в)</div>
+            </div>
+            <div class="profile-followings">
+              <div class="quantity">90</div>
+              <div>читаних</div>
+            </div>
+          </div>
+          <div class="published-posts">
+            <img src="photos/channel-4.jpeg">
+            <img src="photos/channel-4.jpeg">
+            <img src="photos/channel-4.jpeg">
+          </div>
+          <button class="follow-button">Стежити</button>
+        </div>
+      </div>
+      <div class="nick-same-followers">
+        <div class="nick-container">
+          <a href="https://www.instagram.com/artem_bilinskyi/" target="_blank" class="profile-link">
+            <div class="nick">user4</div>
+          </a>
+          <div class="profile-tooltip">
+            <div class="profile-header">
+              <img class="profile-tooltip-picture" src="photos/channel-4.jpeg">
+              <div class="profile-tooltip-name-about">
+                <div class="profile-tooltip-name">
+                  user4
+                </div>
+                <div class="profile-tooltip-about">
+                  no
+                </div>
+              </div>
+            </div>
+            <div class="posts-followers">
+              <div class="total-posts">
+                <div class="quantity">7</div>
+                <div>дописи</div>
+              </div>
+              <div class="profile-followers">
+                <div class="quantity">188</div>
+                <div>читачі(в)</div>
+              </div>
+              <div class="profile-followings">
+                <div class="quantity">90</div>
+                <div>читаних</div>
+              </div>
+            </div>
+            <div class="published-posts">
+              <img src="photos/channel-4.jpeg">
+              <img src="photos/channel-4.jpeg">
+              <img src="photos/channel-4.jpeg">
+            </div>
+            <button class="follow-button">Стежити</button>
+          </div>
+        </div>
+        <div class="same-followers">
+          Стежить user2 та ще 3</div>
+      </div>
+      <button>Стежити</button>
+    </div>
+
+    <div class="profile-row">
+      <div class="profile-picture-container">
+        <a href="https://www.instagram.com/artem_bilinskyi/">
+          <img class="profile-picture" src="photos/channel-5.jpeg">
+        </a>
+        <div class="profile-tooltip">
+          <div class="profile-header">
+            <img class="profile-tooltip-picture" src="photos/channel-5.jpeg">
+            <div class="profile-tooltip-name-about">
+              <div class="profile-tooltip-name">
+                user5
+              </div>
+              <div class="profile-tooltip-about">
+                tbc
+              </div>
+            </div>
+          </div>
+          <div class="posts-followers">
+            <div class="total-posts">
+              <div class="quantity">8</div>
+              <div>дописи</div>
+            </div>
+            <div class="profile-followers">
+              <div class="quantity">2069</div>
+              <div>читачі(в)</div>
+            </div>
+            <div class="profile-followings">
+              <div class="quantity">69</div>
+              <div>читаних</div>
+            </div>
+          </div>
+          <div class="published-posts">
+            <img src="photos/channel-5.jpeg">
+            <img src="photos/channel-5.jpeg">
+            <img src="photos/channel-5.jpeg">
+          </div>
+          <button class="follow-button">Стежити</button>
+        </div>
+      </div>
+      <div class="nick-same-followers">
+        <div class="nick-container">
+          <a href="https://www.instagram.com/artem_bilinskyi/" target="_blank" class="profile-link">
+            <div class="nick">user5</div>
+          </a>
+          <div class="profile-tooltip">
+            <div class="profile-header">
+              <img class="profile-tooltip-picture" src="photos/channel-5.jpeg">
+              <div class="profile-tooltip-name-about">
+                <div class="profile-tooltip-name">
+                  user5
+                </div>
+                <div class="profile-tooltip-about">
+                  tbc
+                </div>
+              </div>
+            </div>
+            <div class="posts-followers">
+              <div class="total-posts">
+                <div class="quantity">8</div>
+                <div>дописи</div>
+              </div>
+              <div class="profile-followers">
+                <div class="quantity">2069</div>
+                <div>читачі(в)</div>
+              </div>
+              <div class="profile-followings">
+                <div class="quantity">69</div>
+                <div>читаних</div>
+              </div>
+            </div>
+            <div class="published-posts">
+              <img src="photos/channel-5.jpeg">
+              <img src="photos/channel-5.jpeg">
+              <img src="photos/channel-5.jpeg">
+            </div>
+            <button class="follow-button">Стежити</button>
+          </div>
+        </div>
+        <div class="same-followers">
+          Стежить user2 та ще 3</div>
+      </div>
+      <button>Стежити</button>
+    </div>
+
+    <div class="recomendations-bottom-info">
+      <div>
+        <span class="element">Інформація</span>&#183;
+        <span class="element">Довідка</span> &#183;
+        <span class="element">Преса</span> &#183;
+        <span class="element">API</span> &#183;
+        <span class="element">Вакансії</span> &#183;
+        <span class="element">Конфіденційність</span> &#183;
+        <span class="element">Умови</span> &#183;
+        <span class="element">Розташування</span> &#183;
+        <span class="element">Мова</span> &#183;
+        <span class="element">Meta Verified</span>
+      </div>
+      <div class="copyright"> &#169; INSTAGRAM FROM META, 2025</div>
+    </div>
   </nav>
 
   <main>
-    <section>
-      <div>
+    <section class="photo-grid">
+      <div class="photo-preview">
+        <div class="author-info">
+          <img class="author-photo" src="photos/channel-1.jpeg">
+          <div class="author-nick">user1</div>
+          <div class="author-post-time">&#183; 2 год.</div>
+          <img class="icon" src="icons/three-dot.png">
+        </div>
+        <img class="author-content" src="posts/interview.jpg">
+        <div class="content-actions">
+          <div class="first-section">
+            <img class="icon" src="icons/notifications.png">
+            <img class="icon" src="icons/comment.png">
+            <img class="icon" src="icons/send.png">
+          </div>
+          <div class="second-section">
+            <img class="icon" src="icons/save.png">
+          </div>
+        </div>
+        <div class="likes">Позначки «Подобається»: 11849</div>
+        <div class="user-description"><span>user1</span> Очікуйте! Зовсім скоро вийде дуже цікаве інтерв'ю.
+          Обговорили багато важливих питань.</div>
+        <div class="comments">Переглянути всі коментарі: 199</div>
+        <div class="post-bottom">
+          <div class="add-comment">Додайте коментар...</div>
+          <img class="smile" src="icons/smile.png">
+        </div>
+      </div>
 
+      <div class="photo-preview">
+        <div class="author-info">
+          <img class="author-photo" src="photos/channel-2.jpeg">
+          <div class="author-nick">user2</div>
+          <div class="author-post-time">&#183; 5 год.</div>
+          <img class="icon" src="icons/three-dot.png">
+        </div>
+        <img class="author-content" src="posts/football.jpg">
+        <div class="content-actions">
+          <div class="first-section">
+            <img class="icon" src="icons/notifications.png">
+            <img class="icon" src="icons/comment.png">
+            <img class="icon" src="icons/send.png">
+          </div>
+          <div class="second-section">
+            <img class="icon" src="icons/save.png">
+          </div>
+        </div>
+        <div class="likes">Позначки «Подобається»: 1169</div>
+        <div class="user-description"><span>user2</span> Футбол - найкращий психолог, допомагає забути про будь-що!!!
+        </div>
+        <div class="comments">Переглянути всі коментарі: 25</div>
+        <div class="post-bottom">
+          <div class="add-comment">Додайте коментар...</div>
+          <img class="smile" src="icons/smile.png">
+        </div>
+      </div>
+
+
+      <div class="photo-preview">
+        <div class="author-info">
+          <img class="author-photo" src="photos/channel-3.jpeg">
+          <div class="author-nick">user3</div>
+          <div class="author-post-time">&#183; 7 год.</div>
+          <img class="icon" src="icons/three-dot.png">
+        </div>
+        <img class="author-content" src="posts/nature.jpg">
+        <div class="content-actions">
+          <div class="first-section">
+            <img class="icon" src="icons/notifications.png">
+            <img class="icon" src="icons/comment.png">
+            <img class="icon" src="icons/send.png">
+          </div>
+          <div class="second-section">
+            <img class="icon" src="icons/save.png">
+          </div>
+        </div>
+        <div class="likes">Позначки «Подобається»: 112379</div>
+        <div class="user-description"><span>user3</span> Просто залишу це тут.</div>
+        <div class="comments">Переглянути всі коментарі: 569</div>
+        <div class="post-bottom">
+          <div class="add-comment">Додайте коментар...</div>
+          <img class="smile" src="icons/smile.png">
+        </div>
       </div>
     </section>
   </main>

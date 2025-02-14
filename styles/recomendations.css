@@ -1,0 +1,193 @@
+.recomendations {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 40px;
+  left: 1100px;
+  width: 300px;
+}
+
+.profile-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.profile-picture,
+.profile-tooltip-picture {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.profile-link {
+  text-decoration: none;
+  color: black;
+}
+
+.recomendations-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.recomendations-text .text {
+  color: gray;
+}
+
+.recomendations-text button {
+  background-color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.recomendations-text button:hover {
+  color: rgb(195, 193, 193);
+}
+
+.profile-row button {
+  color: rgb(0, 149, 246);
+  background-color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.profile-row button:hover {
+  color: rgb(76, 0, 190);
+}
+
+
+.profile-row .nick,
+.profile-tooltip-name {
+  font-weight: bold;
+  margin-right: 70px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.profile-row .nick {
+  margin-right: 70px;
+}
+
+.profile-row .same-followers {
+  color: gray;
+  font-size: 12px;
+}
+
+.profile-row .nick-same-followers {
+  margin-right: 40px;
+}
+
+.profile-picture-container,
+.nick-container {
+  position: relative;
+  display: inline-block;
+}
+
+.profile-picture-container:hover .profile-tooltip,
+.nick-container:hover .profile-tooltip {
+  opacity: 1;
+}
+
+.profile-tooltip {
+  background-color: white;
+  width: 205px;
+  padding: 12px 12px;
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  position: absolute;
+  top: 55px;
+  z-index: 300;
+
+  opacity: 0;
+  pointer-events: none;
+
+  display: flex;
+  flex-direction: column;
+  transition: opacity 0.15s;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-tooltip-about {}
+
+.posts-followers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 3px;
+  margin-bottom: 20px;
+}
+
+.total-posts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-followers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-followings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quantity {
+  font-weight: bold;
+}
+
+.published-posts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 3px;
+  margin-right: 500px;
+  margin-bottom: 10px;
+}
+
+.profile-tooltip .follow-button {
+  color: white;
+  background-color: rgb(0, 149, 246);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border: none;
+  border-radius: 8px;
+}
+
+.recomendations-bottom-info {
+  color: rgb(193, 193, 193);
+  margin-top: 15px;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.element {
+  cursor: pointer;
+}
+
+.element:hover {
+  text-decoration: underline;
+}
+
+.copyright {
+  margin-top: 20px;
+}
